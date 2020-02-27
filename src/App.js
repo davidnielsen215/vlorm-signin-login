@@ -15,7 +15,7 @@ export default class App extends React.Component {
     <div className="App">
       <header className="App-header">
         <div style={{background: 'black', borderRadius: '10px', margin: '2vh'}}>
-          <img src={entireLogo} className="entire-logo"/>
+          {/* <img src={entireLogo} className="entire-logo"/> */}
         </div>
         <div className="zama-form">
         <div className={`container ${!signin ? 'right-panel-active' : ''}`} id="container">
